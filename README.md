@@ -1,12 +1,38 @@
-# React + Vite
+# My Dev Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal developer portfolio website built using modern web technologies. It showcases projects, provides contact information, and includes a dark mode toggle for better user experience. The project is structured with React components, CSS modules, and a context for managing dark mode state. It is bundled using Vite for fast development and optimized builds.
 
-Currently, two official plugins are available:
+# File Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+.
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── public/
+│ └── images/
+├── README.md
+├── src/
+│ ├── App.css
+│ ├── App.jsx
+│ ├── assets/
+│ ├── components/
+│ │ ├── About.jsx
+│ │ ├── Contact.jsx
+│ │ ├── Contact.module.css
+│ │ ├── Header/
+│ │ │ ├── Brand.jsx
+│ │ │ ├── ColorToggle.jsx
+│ │ │ ├── Hamburger.jsx
+│ │ │ ├── Header.jsx
+│ │ │ └── Header.module.css
+│ │ ├── Hero.jsx
+│ │ ├── Navbar.jsx
+│ │ ├── Navbar.module.css
+│ │ ├── Projects.jsx
+│ │ └── Root.jsx
+│ ├── contexts/
+│ │ └── DarkModeContext.jsx
+│ ├── index.css
+│ └── main.jsx
+└── vite.config.js
