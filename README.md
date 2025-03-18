@@ -5,7 +5,8 @@ This is a personal developer portfolio website built using modern web technologi
 ## File Structure
 
 Project Structure:
-...
+
+```
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
@@ -37,4 +38,4 @@ Project Structure:
 │ ├── index.css
 │ └── main.jsx
 └── vite.config.js
-...
+```
