@@ -4,7 +4,40 @@ This is a personal developer portfolio website built using modern web technologi
 
 # File Structure
 
-. ├── .gitignore ├── eslint.config.js ├── index.html ├── package.json ├── public/ │ └── images/ ├── README.md ├── src/ │ ├── App.css │ ├── App.jsx │ ├── assets/ │ ├── components/ │ │ ├── About.jsx │ │ ├── Contact.jsx │ │ ├── Contact.module.css │ │ ├── Header/ │ │ │ ├── Brand.jsx │ │ │ ├── ColorToggle.jsx │ │ │ ├── Hamburger.jsx │ │ │ ├── Header.jsx │ │ │ └── Header.module.css │ │ ├── Hero.jsx │ │ ├── Navbar.jsx │ │ ├── Navbar.module.css │ │ ├── Projects.jsx │ │ └── Root.jsx │ ├── contexts/ │ │ └── DarkModeContext.jsx │ ├── index.css │ └── main.jsx └── vite.config.js
+Project Structure:
+.
+
+- .gitignore
+- eslint.config.js
+- index.html
+- package.json
+- public/
+  - images/
+- README.md
+- src/
+  - App.css
+  - App.jsx
+  - assets/
+  - components/
+    - About.jsx
+    - Contact.jsx
+    - Contact.module.css
+    - Header/
+      - Brand.jsx
+      - ColorToggle.jsx
+      - Hamburger.jsx
+      - Header.jsx
+      - Header.module.css
+    - Hero.jsx
+    - Navbar.jsx
+    - Navbar.module.css
+    - Projects.jsx
+    - Root.jsx
+  - contexts/
+    - DarkModeContext.jsx
+  - index.css
+  - main.jsx
+- vite.config.js
 
 <!-- .
 ├── .gitignore
